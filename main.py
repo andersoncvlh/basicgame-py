@@ -1,5 +1,6 @@
 import robo
 import robo3d
+import reward
 
 
 robo1 = robo.Robo(2,2)
@@ -15,3 +16,5 @@ print('Z igual a %s' % robo3d.z)
 
 robo3d.move_down()
 print('Y igual a %s' % robo3d.y)
+
+reward = reward.Reward(5, 5, 'Recompensa')

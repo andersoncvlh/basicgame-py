@@ -1,8 +1,6 @@
-class Robo():
-        def __init__(self, x, y):
-            self.x = x
-            self.y = y
+import point
 
+class Robo(point.Point):
         
         def move_up(self):
             if self.y < 10:
